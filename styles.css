@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(211, 23, 23);
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 50px;
+}
+.topnav a:hover {
+  color: rgb(122, 122, 122);
+}
+.topnav a.active {
+  color: rgb(173, 173, 173);
+}
+.header {
+  padding-left:10px;
+  color: white;
+  font-style: italic;
+}
+.logo {
+  float: left;
+  display: inline;
+}
+.newspage {
+  margin-top: 70px;
+  text-align: center;
+}
+.line {
+  background-color: rgb(211, 23, 23);
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 400px;
+  height: 8px;
+}
+.latest {
+  margin-top: 0px;
+  margin-left: 50px;
+  color: rgb(211, 23, 23);
+  font-size: 20px;
+}
+#news4 {
+  margin-left: 37px;
+}
+.mmapages {
+  margin-top: 50px;
+  position: relative;
+}
+.mmapage {
+  float: left;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  flex-basis: 400px;
+  margin-left: 70px;
+  width: 400px;
+  height: 200px;
+  border-style: solid;
+  border-color: rgb(211, 23, 23);
+  border-width: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: white;
+}
+#khabib {
+  margin-top: 100px;
+}
+.mmapage2 {
+  float: left;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  flex-basis: 250px;
+  margin-left: 200px;
+  width: 300px;
+  height: 700px;
+  border-style: solid;
+  border-color: rgb(211, 23, 23);
+  border-width: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: white;
+  margin-bottom: 35px;
+}
+.mma-pages2 {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  margin-top: 25px;
+  margin-left: 70px;
+  width: 400px;
+  height: 340px;
+  border-style: solid;
+  border-color: rgb(211, 23, 23);
+  border-width: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: white;
+}
+#name {
+  margin-bottom: 10px;
+}
+#email {
+  margin-bottom: 10px;
+}
+#submit {
+  margin-left: 90px;
+}
+#mcregor {
+  margin-top: -20%;
+  margin-left: 10px;
+  position: relative;
+}
+.screen {
+  background-color: rgb(0, 0, 0);
+  margin-top: -170%;
+  margin-left: 550px;
+  width: 400px;
+  height: 75px;
+  border-style: solid;
+  border-color: rgb(211, 23, 23);
+  border-width: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: white;
+  position: relative;
+}
+#jonjones {
+  margin-top: -5%;
+  margin-left: 550px;
+}
+.screen2{
+  background-color: rgb(0, 0, 0);
+  margin-top: -170%;
+  margin-left: 550px;
+  width: 400px;
+  height: 75px;
+  border-style: solid;
+  border-color: rgb(211, 23, 23);
+  border-width: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: white;
+  position: relative;
+}
+#mmapage3 {
+  visibility: hidden;
+  float: left;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  flex-basis: 400px;
+  width: 700px;
+  height: 150x;
+  border-style: solid;
+  border-color: rgb(211, 23, 23);
+  border-width: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-left: 350px;
+  color: white;
+}
+#mmapage4 {
+  visibility: hidden;
+  float: left;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  flex-basis: 400px;
+  width: 700px;
+  height: 150x;
+  border-style: solid;
+  border-color: rgb(211, 23, 23);
+  border-width: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-left: 350px;
+  color: white;
+}
+#mmapage5 {
+  visibility: hidden;
+  float: left;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  flex-basis: 400px;
+  width: 700px;
+  height: 150x;
+  border-style: solid;
+  border-color: rgb(211, 23, 23);
+  border-width: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-left: 350px;
+  color: white;
+}
+#mmapage6 {
+  visibility: hidden;
+  float: left;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  flex-basis: 400px;
+  width: 700px;
+  height: 150x;
+  border-style: solid;
+  border-color: rgb(211, 23, 23);
+  border-width: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-left: 350px;
+  color: white;
+  margin-bottom: 50px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bkr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(211, 23, 23);
+  color: white;
+}
+.errorName {
+  display:none;
+}
+.errorEmail {
+  display:none;
+}
+.error {
+  color:rgb(211, 23, 23);
+}

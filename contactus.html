@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Raamis MMA</title>
+      <meta name="description" content="Final Project">
+      <meta name="author" content="Raamis Ali">
+      <link rel="stylesheet" href="styles.css">
+      <!--Raamis Ali-->
+   </head>
+   <body>
+      <script src="js.js"></script>
+      <div class="topnav">
+         <a href="index.html">MMA News</a>
+         <a href="topicks.html">Top Picks</a>
+         <a class="active" href="contactus.html">Contact Us</a>
+         <a href="about.html">About</a>
+         <p class="header">Raamis MMA: The go-to place for MMA and UFC news</p>
+      </div>
+      <div class="mma-pages2">
+         <p>Enter your information:</p>
+         <form class="mainForm" onchange="checkAll();">
+            <div class="row">
+               Name:<br>
+               <input type="text" name="name" id="name" class="form-field" onkeyup="validateName(this.value);">
+            </div>
+            <div class="errorName">
+               <span class="row error">Name must not be blank and less than 2 characters</span>
+            </div>
+            <br>
+            <div class="row">
+               Email:<br>
+               <input type="text" name="email" id="email" class="form-field" onkeyup="validateEmail(this.value);">
+            </div>
+            <div class="errorEmail">
+               <span class="row error">Email must have @ symbol</span>
+            </div>
+            <br>
+            Reason:<br>
+            <select name="reason" id="reason">
+               <option value="select">--Select--</option>
+               <option value="complaint">Complaint</option>
+               <option value="sponsorship">Sponsorship</option>
+               <option value="report">Report</option>
+               <option value="other">Other</option>
+            </select>
+            <p>Would you like to participate in Raamis MMA offers and future surveys?</p>
+            <input type="radio" name="group1">
+            <label>Yes</label>
+            <input type="radio" name="group1">
+            <label>No</label>
+            <input type="submit" id="submit" value="Submit">
+         </form>
+         <img src="images/mcregor2.png" id="mcregor" alt="image taken from https://pngimg.com/images/celebrities/conor_mcgregor">
+         <div class="screen">
+            <p>Reach out to us at 33 1st St., New York City, NY 040554. P.O. Box 041004.</p>
+         </div>
+         <img src="images/jonjones.jpg" alt="jon jones image, received from https://www.espn.com/mma/fighter/_/id/2335639/jon-jones" id="jonjones">
+      </div>
+   </body>
+</html>
